@@ -1,0 +1,18 @@
+{
+    "contents" : "#load raw data\ntrain <- read.csv(\"Data/train.csv\", header = T)\ntest <- read.csv(\"Data/test.csv\", header = T)\n\n# add a \"survived\" Variable to the test set to allow for combining data sets\ntest.survived <- data.frame(survived = rep(\"None\", nrow(test)), test[,])\n\n#Combine data sets\ndata.combined <- rbind(train, test.survived)",
+    "created" : 1449100467284.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1705869589",
+    "id" : "2CBD6BDA",
+    "lastKnownWriteTime" : 1449101247,
+    "path" : "C:/Users/oke14406/iCloudDrive/DEV/R/youTube_TitanicTutorial/TitatnicDataAnalysis.R",
+    "project_path" : "TitatnicDataAnalysis.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

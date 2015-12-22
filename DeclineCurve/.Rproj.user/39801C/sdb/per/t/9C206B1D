@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1448492065602.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9C206B1D",
+    "lastKnownWriteTime" : 4294901760,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "ea7jlkhesr",
+        "caption" : "agg3",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=agg3&cache_key=ea7jlkhesr",
+        "displayedObservations" : "25",
+        "environment" : "",
+        "object" : "agg3",
+        "totalObservations" : "25",
+        "variables" : "3"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

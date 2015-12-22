@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1448491518120.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C4EDE313",
+    "lastKnownWriteTime" : -1590694515927154688,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "jce2e2po7m",
+        "caption" : "dfWellAnalysisTable",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=dfWellAnalysisTable&cache_key=jce2e2po7m",
+        "displayedObservations" : "5888",
+        "environment" : "",
+        "object" : "dfWellAnalysisTable",
+        "totalObservations" : "5888",
+        "variables" : "6"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

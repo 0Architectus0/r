@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1449299161735.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "43C2C5C6",
+    "lastKnownWriteTime" : 391555824,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "hr65dmw6k8",
+        "caption" : "BegExtCoating",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=BegExtCoating&cache_key=hr65dmw6k8",
+        "displayedObservations" : "19",
+        "environment" : "",
+        "object" : "BegExtCoating",
+        "totalObservations" : "19",
+        "variables" : "36"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

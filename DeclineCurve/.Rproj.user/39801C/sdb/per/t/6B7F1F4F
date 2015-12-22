@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1448491500621.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6B7F1F4F",
+    "lastKnownWriteTime" : 8315177835134542592,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "i0eo8gdjgm",
+        "caption" : "wellEUR",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=wellEUR&cache_key=i0eo8gdjgm",
+        "displayedObservations" : "6319",
+        "environment" : "",
+        "object" : "wellEUR",
+        "totalObservations" : "6319",
+        "variables" : "4"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

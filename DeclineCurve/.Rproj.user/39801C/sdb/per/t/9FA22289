@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1448491508727.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9FA22289",
+    "lastKnownWriteTime" : 7369050263635623936,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "xy3nkthll3",
+        "caption" : "dfAggMean",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=dfAggMean&cache_key=xy3nkthll3",
+        "displayedObservations" : "146897",
+        "environment" : "",
+        "object" : "dfAggMean",
+        "totalObservations" : "146897",
+        "variables" : "3"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

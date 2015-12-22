@@ -1,0 +1,18 @@
+{
+    "contents" : "VARIABLE DESCRIPTIONS:\nsurvival        Survival\n                (0 = No; 1 = Yes)\npclass          Passenger Class\n                (1 = 1st; 2 = 2nd; 3 = 3rd)\nname            Name\nsex             Sex\nage             Age\nsibsp           Number of Siblings/Spouses Aboard\nparch           Number of Parents/Children Aboard\nticket          Ticket Number\nfare            Passenger Fare\ncabin           Cabin\nembarked        Port of Embarkation\n                (C = Cherbourg; Q = Queenstown; S = Southampton)\n\nSPECIAL NOTES:\nPclass is a proxy for socio-economic status (SES)\n 1st ~ Upper; 2nd ~ Middle; 3rd ~ Lower\n\nAge is in Years; Fractional if Age less than One (1)\n If the Age is Estimated, it is in the form xx.5\n\nWith respect to the family relation variables (i.e. sibsp and parch)\nsome relations were ignored.  The following are the definitions used\nfor sibsp and parch.\n\nSibling:  Brother, Sister, Stepbrother, or Stepsister of Passenger Aboard Titanic\nSpouse:   Husband or Wife of Passenger Aboard Titanic (Mistresses and Fiances Ignored)\nParent:   Mother or Father of Passenger Aboard Titanic\nChild:    Son, Daughter, Stepson, or Stepdaughter of Passenger Aboard Titanic\n\nOther family relatives excluded from this study include cousins,\nnephews/nieces, aunts/uncles, and in-laws.  Some children travelled\nonly with a nanny, therefore parch=0 for them.  As well, some\ntravelled with very close friends or neighbors in a village, however,\nthe definitions do not support such relations.",
+    "created" : 1449100524376.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "113890003",
+    "id" : "38447F44",
+    "lastKnownWriteTime" : 1449100569,
+    "path" : "C:/Users/oke14406/iCloudDrive/DEV/R/youTube_TitanicTutorial/Data/DataDictionary",
+    "project_path" : "Data/DataDictionary",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "text"
+}

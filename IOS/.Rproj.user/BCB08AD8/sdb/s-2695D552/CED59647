@@ -1,0 +1,18 @@
+{
+    "contents" : "#read data set\nExtcoating <- read.csv(\"Data/ExternalCoating.csv\", header = T)\n\n\n#funtion parameters beg_meas\n\n#subset to get single row per coating\nBegExtCoating <- Extcoating[Extcoating$Begin.and.End == 'BEG_MEAS',]\n\n\n#intialize variables\n\npipeSet <- data.frame()\n\n# 1st attempt -------------------------------------------------------------\n\n\n#append ft increment rows per coating/row dim(BegExtCoating)[1]\n# for( i in 1:dim(BegExtCoating)[1]){\n#   coatSet <- data.frame()\n#   for (j in 0:(BegExtCoating$EVENT_LENGTH[i]-1)){\n#     #copy original row\n#     orow <- BegExtCoating[i,c(1:9)]\n#     \n#     #replace begining and ending values\n#     orow$BEG_STN <- BegExtCoating[i,]$BEG_STN + (j)\n#     orow$END_STN <- orow$BEG_STN+1 \n#     \n#     #replace length?\n#     #orow$EVENT_LENGTH <-  1\n#     \n#     #\n#     #orow$Begin.and.End <- \"Coating Segment\"\n#     \n#     #coating event data set \n#     coatSet <- rbind(coatSet, orow)\n#   }\n#   pipeSet <- rbind(pipeSet,BegExtCoating[i,], coatSet, Extcoating[i+1,])\n# }\n\n# 2nd try -----------------------------------------------------------------\n#append ft increment rows per coating/row dim(BegExtCoating)[1]\nfor( i in 2){\n  coatSet <- data.frame()\n  orow <- BegExtCoating[i,]\n  \n  for (j in 0:(BegExtCoating$EVENT_LENGTH[i]-1)){\n    #copy original row\n   #coating event data set \n    \n    coatSet <- rbind(coatSet, orow)\n    \n    #replace begining and ending values\n    #orow$BEG_STN <- BegExtCoating[i,]$BEG_STN + (j)\n    #orow$END_STN <- orow$BEG_STN+1 \n    \n    #replace length?\n    #orow$EVENT_LENGTH <-  1\n    \n    #\n    #orow$Begin.and.End <- \"Coating Segment\"\n    \n  }\n  seg_start <- BegExtCoating$EVENT_LENGTH[i]\n  coatSet <- cbind(coatSet, seg_start, seg_end)\n  pipeSet <- rbind(pipeSet,BegExtCoating[i,], coatSet, Extcoating[i+1,])\n}\n",
+    "created" : 1449177296865.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2013251526",
+    "id" : "CED59647",
+    "lastKnownWriteTime" : 1449270072,
+    "path" : "C:/Users/oke14406/iCloudDrive/DEV/R/IOS/ExtCoating_CoatingSegFillRows.R",
+    "project_path" : "ExtCoating_CoatingSegFillRows.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
