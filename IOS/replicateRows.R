@@ -5,7 +5,7 @@ Extcoating <- read.csv("Data/ExternalCoating.csv", header = T)
 #subset to get single row per coating
 BegExtCoating <- Extcoating[Extcoating$Begin.and.End == 'BEG_MEAS',]
 
-#rowNum <- 1
+rowNum <- 1
 
 pipeSet <- data.frame()
 
@@ -28,8 +28,9 @@ pipeSet <- data.frame()
        test4 <- matrix(test3, byrow = T) 
        test5 <- data.frame(test4)
        
-       string
-       
+#        test23 <- sapply( BegExtCoating, function(1) if("factor" %in% class(x) ) { 
+#          as.character(x)
+#        } else { x } )
        
        test6 <- data.frame(matrix(unlist(test2, use.names = T), nrow = 3, byrow = T), stringsAsFactors = F)
      #replace with i 
@@ -58,6 +59,9 @@ pipeSet <- data.frame()
         #orow$BEG_STN <- BegExtCoating[i,]$BEG_STN + (j)
        
         #orow$END_STN <- orow$BEG_STN+1 
+
+#  ------------------------------------------------------------------------
+
 
        #replace length?
         #orow$EVENT_LENGTH <-  1
